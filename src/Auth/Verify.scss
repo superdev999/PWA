@@ -1,0 +1,42 @@
+.AppScreen.VerifyPhoneNumber {
+  font-family: Roboto-Regular;
+  .nav{
+    background-color: black;
+    height:7vh;
+  }
+  .BottomOptions{
+    height:20vh;
+  }
+  .Content {
+    margin: 1.5rem 1rem 1rem 1rem;
+    margin-top: 2rem;
+    height:20vh;
+
+    div.IntroText {
+      margin: 0 1rem;
+      font-size: 1rem;
+      font-family: Roboto;
+    }
+
+    div.CodeEntry {
+      margin: 1.5rem auto;
+      width: 12.5rem;
+      text-align: center;
+    }
+
+    div.VerifyButtonContainer {
+      margin: 1.5rem 2rem 0 2rem;
+
+      div.SendAgainText {
+        margin-top: 1rem;
+        text-align: center;
+        font-size: 0.9rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        font-family: Roboto;
+      }
+    }
+  }
+}

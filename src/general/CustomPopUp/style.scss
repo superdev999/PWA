@@ -1,0 +1,70 @@
+.Popup {
+  position: absolute;
+  width: 100%;
+  height:100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0,0,0, 0.5);
+
+  .popupIn {
+    width: 95%;
+    height:50%;
+    position: absolute;
+    left: 1%;
+    right:0;
+    top: -10%;
+    bottom: 0;
+    margin: auto;
+    .Card {
+      background-color: white;
+      padding: 1rem;
+      margin-top: 1.5rem;
+      .Title{
+        &>p{
+          font-size: 20px;
+          font-family:Roboto;
+          font-weight:bolder;
+        }
+        &>label{
+          font-family: Roboto;
+        }
+      }
+      .Body {
+        & > ul {
+          list-style: none;
+          margin-block-start:0;
+          margin-block-end:0;
+          margin-inline-start:0;
+          margin-inline-end:0;
+          padding-inline-start:0;
+          width:100%;
+          & > li {
+            margin-top:10px;
+            width:100%;
+            list-style: none;
+            &>label{
+              font-family: Roboto;
+              margin-left:10px;
+            }
+          }
+        }
+      }
+      .connectBt{
+        margin-top: 35px;
+        width:100%;
+        &>a{
+          margin-left:38px;
+          font-size:16px;
+          font-family: Roboto;
+          color:#999999;
+        }
+        &>a:last-child{
+          color:#00568c;
+        }
+      }
+    }
+  }
+}

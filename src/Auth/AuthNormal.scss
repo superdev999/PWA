@@ -1,0 +1,104 @@
+.AppScreen.AuthNormal {
+  font-family: 'Roboto-Regular';
+  .TopButton {
+    background: rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    border-radius: 0.5rem;
+  }
+
+  .AuthHeader {
+    background-color: #0f0f0f;
+    width: 100vw;
+    height: 8vh;
+    padding: 3vh 10vw;
+    .MuiSvgIcon-colorPrimary-2 {
+      color: white;
+      float: right;
+    }
+    label {
+      font-family: 'Roboto-Regular';
+      margin-left: 25%;
+      color: white;
+      letter-spacing: 0.07rem;
+      font-size: 1.2em;
+    }
+  }
+  .Content {
+    margin: 1.5rem 1rem 1rem 1rem;
+    padding: 0 1rem;
+    text-align: center;
+
+    .TopLabel {
+      margin-bottom: 0.5em;
+      float: left;
+    }
+
+    .AuthNormalForm {
+      display: block;
+      width: 100%;
+      height: 100%;
+      .Field {
+        margin-top: 0.5rem;
+
+      }
+
+      .Firlabel {
+        width: 100%;
+      }
+      .Firlabel label {
+        float: left;
+      }
+      .FirItem {
+        width: 100%;
+        display: block;
+        float: left;
+      }
+      .ErrComment {
+        margin-right: 25%;
+        font-size: 0.8em;
+        color: #f20b0b;
+        float: right;
+      }
+      .ErrIcon {
+        width: 1.5em;
+        height: 1.5em;
+        position: absolute;
+        top: 19%;
+        right: 12%;
+      }
+      .Sel_Num {
+        float: left;
+        width: 28%;
+      }
+      .HalfWidth {
+        float: left;
+        width: 68%;
+        margin-left: 3%;
+      }
+      .TextInput:last-child {
+        margin-bottom: 0;
+      }
+
+      .Icon {
+        float: left;
+        height: 0.9rem;
+      }
+
+    }
+
+    .SubText {
+      display: block;
+      width: 100%;
+      margin: 7.55rem 0.7rem 0 0.7rem;
+      font-size: 0.94rem;
+      color: black;
+      letter-spacing: 0.07rem;
+      text-align: left;
+    }
+    .SubText p {
+      margin: 0;
+    }
+  }
+
+}

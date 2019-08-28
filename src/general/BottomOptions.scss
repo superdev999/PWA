@@ -1,0 +1,22 @@
+.BottomOptions {
+  display: flex;
+  text-align: center;
+  position: sticky;
+  top: 100vh;
+
+  .FixedMargin {
+    width: 3rem;
+  }
+
+  .MidFlexWidth {
+    flex: 1;
+  }
+
+  .Button {
+    margin-top: 1.5rem;
+  }
+
+  .Button:last-child {
+    margin-bottom: 2rem;
+  }
+}
